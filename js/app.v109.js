@@ -241,7 +241,7 @@
             break;
 
             case 'tele-rotors-plus':
-            if (score.tele.rotors < 4) {
+            if (score.tele.rotors + score.auto.rotors < 4) {
                 score.tele.rotors += 1;
                 $('#tele-rotors-counter').val(score.tele.rotors);
             }
