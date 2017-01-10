@@ -65,7 +65,7 @@
         if (calculateKpa() > 39) {
             rp += 1;
         }
-        if (score.tele.rotors == 4) {
+        if (score.tele.rotors + score.auto.rotors == 4) {
             rp += 1;
         }
         return rp;
